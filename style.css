@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: rgb(240, 100, 49);
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+form{
+    background-color: yellow;
+    display: inline-block;
+    place-items: center;
+    padding: 60px;
+    width: 50%;
+    margin: 100px auto;
+    text-align: center;
+    -webkit-box-shadow:0 10px 6px -6px #777 ;
+    -moz-box-shadow:0 10px 6px -6px #777 ;
+    box-shadow:0 10px 6px -6px #777 ;
+    border-radius: 10px;
+
+}
+
+#tempCalc label{
+    font-size: 30px;
+}
+
+#temp{
+    border: none;
+    outline: none;
+    padding: 10px;
+    height: 40px;
+    width: 100px;
+    font-size: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+#temp_diff{
+   border: none; 
+   outline: none;
+   height: 40px;
+   margin-top: 20px;
+   font-size: 15px;
+   vertical-align: top; 
+   border-radius: 5px;
+}
+
+[type="submit"]{
+    height: 35px;
+    margin: 20px;
+    width: 100px;
+    font-size: 15px;
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    cursor:pointer;
+}
+
+[type="submit"]:hover{
+    background-color:rgb(21, 21, 21);
+}
+
+#resultContainer{
+    font-size: 35px;
+}
